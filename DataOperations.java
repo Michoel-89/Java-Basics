@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class DataOperations {
     public static void main(String[] args) {
 
@@ -11,6 +13,15 @@ public class DataOperations {
         char newGrade = (char) (grade + 1);
         boolean theGiantsSuck = isJavaFun;
 
+        int[] intArray = {1, 2, 3, 4};
+
+        for(int value : intArray) {
+            System.out.println(value);
+        }
+        Person p1 = new Person("john");
+        
+        System.out.println(p1.name);
+        System.out.println(Arrays.toString( intArray));
         System.out.println("number " + result1);
         System.out.println("double " + result2);
         System.out.println("new grade " + newGrade);
