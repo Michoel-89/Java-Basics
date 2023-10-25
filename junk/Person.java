@@ -1,3 +1,4 @@
+package junk;
 public class Person {
     String name;
 

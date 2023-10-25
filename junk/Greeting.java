@@ -1,3 +1,4 @@
+package junk;
 public class Greeting {
     public static void greet(String name) {
         if (name != null) {

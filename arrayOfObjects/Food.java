@@ -1,3 +1,5 @@
+package arrayOfObjects;
+
 public class Food {
     
     String name;
