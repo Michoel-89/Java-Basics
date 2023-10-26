@@ -4,13 +4,21 @@ public class Main {
     public static void main(String[] args) {
         // Your Java code goes here
 
-        Car car = new Car("Chevrolet", "Camaro", 2021);
+        Car car1 = new Car("Chevrolet", "Camaro", 2021);
+        Car car2 = new Car(car1);
+        // car1.setYear(2022);
+        
+        // car2.copy(car1);
 
-        car.setYear(2022);
+        System.out.println(car1);
+        System.out.println(car2);
+        System.out.println(car1.getMake());
+        System.out.println(car1.getModel());
+        System.out.println(car1.getYear());
 
-        System.out.println(car.getMake());
-        System.out.println(car.getModel());
-        System.out.println(car.getYear());
+        System.out.println(car2.getMake());
+        System.out.println(car2.getModel());
+        System.out.println(car2.getYear());
 
         // encapsulation makes classes private
     }
